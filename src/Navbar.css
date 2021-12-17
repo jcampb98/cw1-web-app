@@ -1,0 +1,38 @@
+.topnav {
+    width: 100%;
+    overflow: hidden;
+    background-color: #2986cc;
+    color: white;
+}
+  
+.topnav .navbar-link {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 15%;
+    font-size: 17px;
+}
+
+.navbar-list {
+    list-style: none;
+}
+
+.topnav .navbar-link.active {
+    background-color: #05324B;
+}
+  
+.topnav .navbar-link:hover {
+    background-color: #444444;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .topnav li {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+}
